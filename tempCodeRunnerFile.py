@@ -1,0 +1,1 @@
+integer=int(input("enter value %d of list",i))
