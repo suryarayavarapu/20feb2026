@@ -6,6 +6,7 @@ list1=numbers_string.split(" ")
 print(list1)
 length=len(list1)
 print(length)
+#using while looop int values stored in list
 while y<length:
     numbers.append(int(list1[y]))
     y+=1
