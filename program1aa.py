@@ -9,5 +9,5 @@ list3=[list1[x]*2 for x in range (len(list1))]
 print(list3)
 list4=[list1[x]*2 if list1[x]%2==0 else list1[x] for x in range (len(list1)) ]#which is divisibele that element only multiplied
 print(list4)
-list5=[list1[x]*2 if x%2 == 0 else list1[x] for x in range(len(list1)) ]
+list5=[list1[x]*2 if x%2 == 0 else list1[x] for x in range(len(list1)) ]# index possition even means multiplied by 2
 print(list5)
