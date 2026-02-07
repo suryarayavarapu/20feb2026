@@ -1,3 +1,4 @@
+#direct assignement method
 list1=[2,34,5,6,7,32]
 list1[0],list1[-1]=list1[-1],list1[0] # interchnging first and 2nd eleemnt without changing remaining element #direct assignment method
 print(list1)
