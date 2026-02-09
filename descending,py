@@ -1,0 +1,18 @@
+l1=[2,34,23,423,43,4,2,9,1]
+l2=[]
+x=0
+m=len(l1)
+while(x<m):
+    max_val=l1[0]
+    for i in range (len(l1)-1):
+        if max_val>l1[i+1]:
+            max_val=max_val
+        else:
+            max_val=l1[i+1]
+    print(max_val)
+    l2.append(max_val)
+    l1.remove(max_val)
+    x+=1
+print(l2)
+
+               
