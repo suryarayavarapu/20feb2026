@@ -17,7 +17,7 @@ print(res)
 l3=[(1,2),(),(3,4),(7,8),(5,6),(10,)]
 l4=[t for t in l3 if t]
 l7=[]
-l1=[1,1,2,4,3,2,22,2,2,4,5,17,4,4,4,5,5,5,66,66,32]
+l1=[1,1,4,2,4,3,2,22,2,2,4,5,17,4,4,4,5,5,5,66,66,32]
 print(l1)
 for i in range(len(l1)):
     count=0
@@ -32,3 +32,9 @@ print(l7)
 l8=set(l7)
 print(l8)
 
+dup=[]
+for p in range(len(l1)):
+    for q in range(p+1,len(l1)):
+        if l1[p]==l1[q] and l1[p] not in dup:
+            dup.append(l1[p])
+print(dup)
