@@ -14,3 +14,14 @@ while(x<m):
     l1.remove(min_val)
     x+=1
 print(l2)
+
+import heapq
+#data structures max find usingsecond element highest by heap method
+list1=[23,452,234,2342,976,23,4,5,22,33,0,32]
+res=heapq.nlargest(2,list1)
+print(res)
+list1.sort()
+print(list1)
+list1.sort(reverse=True)
+print(list1)
+print(max(list1))
